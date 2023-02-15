@@ -612,6 +612,12 @@ body.overflow {
   line-height: 1.17;
   color: var(--accent-color);
 }
+@media screen and (min-width: 320px) and (max-width: 480px){
+  .mobile-contacts__tel{
+    font-size: 24px;
+  }
+}
+
 
 .heroi {
   padding: 118px 0;
@@ -642,17 +648,17 @@ body.overflow {
 
 @media screen and (max-width: 479.98px) and (min-device-pixel-ratio: 2), screen and (max-width: 479.98px) and (--webkit-min-device-pixel-ratio: 2), screen and (max-width: 479.98px) and (-o-min-device-pixel-ratio: 2/1), screen and (max-width: 479.98px) and (min-resolution: 192dpi), screen and (max-width: 479.98px) and (min-resolution: 2dppx) {
   .heroi {
-    background-image: url("../images/mobile/heroi-mobile@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/mobile/heroi-mobile@2x.jpg");
   }
 }
 @media screen and (min-width: 479.98px) and (min-device-pixel-ratio: 2), screen and (min-width: 479.98px) and (--webkit-min-device-pixel-ratio: 2), screen and (min-width: 479.98px) and (-o-min-device-pixel-ratio: 2/1), screen and (min-width: 479.98px) and (min-resolution: 192dpi), screen and (min-width: 479.98px) and (min-resolution: 2dppx) {
   .heroi {
-    background-image: url("../images/tablet/heroi-tablet@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/tablet/heroi-tablet@2x.jpg");
   }
 }
 @media screen and (min-width: 767.98px) and (min-device-pixel-ratio: 2), screen and (min-width: 767.98px) and (--webkit-min-device-pixel-ratio: 2), screen and (min-width: 767.98px) and (-o-min-device-pixel-ratio: 2/1), screen and (min-width: 767.98px) and (min-resolution: 192dpi), screen and (min-width: 767.98px) and (min-resolution: 2dppx) {
   .heroi {
-    background-image: url("../images/heroi@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/heroi@2x.jpg");
   }
 }
 .heroi__wraper {
